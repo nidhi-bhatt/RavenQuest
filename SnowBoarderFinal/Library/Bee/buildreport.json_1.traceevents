@@ -1,0 +1,577 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1669719025744472, "dur": 4303159, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669719025745131, "dur": 22669, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669719025767806, "dur": 304360, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669719026072169, "dur": 1035527, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669719027107699, "dur": 2931698, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669719030039400, "dur": 8229, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669719030048748, "dur": 48, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1669719026805707, "dur": 267635, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669719026807996, "dur": 98093, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669719027053473, "dur": 5498, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669719027058976, "dur": 14355, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669719027059795, "dur": 12616, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669719027078029, "dur": 1349, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669719027077228, "dur": 2175, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669719030048968, "dur": 1560, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669719027190163, "dur":13023, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719027203201, "dur":44633, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669719027247890, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669719027247916, "dur":298, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669719027248247, "dur":888, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719027249135, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029826774, "dur":175, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029826949, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029826980, "dur":30, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029827010, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029827033, "dur":84, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029827117, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029827154, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029827164, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029827182, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029827259, "dur":6, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029827326, "dur":119473, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669719027249116, "dur":36, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027249152, "dur":5394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027254546, "dur":3301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669719027257853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027259022, "dur":6045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669719027265108, "dur":24320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669719027289432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027289476, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669719027290878, "dur":2202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669719027293085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027293093, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1669719027294492, "dur":5751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669719027300248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027300256, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669719027301493, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669719027301644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027301649, "dur":3564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669719027305280, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1669719027305431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027305436, "dur":100035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1669719027405529, "dur":4595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669719027410176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027410183, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669719027412979, "dur":891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669719027413873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027413877, "dur":18940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669719027432843, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1669719027433201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027433646, "dur":34033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1669719027467852, "dur":54487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027522349, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027523071, "dur":8543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027531652, "dur":45413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027577074, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027577125, "dur":35197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027612358, "dur":30446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027642815, "dur":239, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027643069, "dur":38982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027682088, "dur":1482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027683577, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027683588, "dur":3228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027686997, "dur":1653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027688660, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027688674, "dur":4080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027692794, "dur":1456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027694259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027694270, "dur":7211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027701512, "dur":64644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027766163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027766171, "dur":17462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027783682, "dur":969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027784659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027784670, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027787235, "dur":1152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027788392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027788400, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027790334, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027790832, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027790845, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027793345, "dur":969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027794321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027794328, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027796151, "dur":1529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027797688, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027797700, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027799974, "dur":869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027800848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027800855, "dur":12774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027813661, "dur":1058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027814727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027814738, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027817038, "dur":1054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027818097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027818106, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027820467, "dur":1107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027821580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027821589, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027824197, "dur":1274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027825477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027825485, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027827370, "dur":977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027828363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027828370, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027830431, "dur":103061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027933502, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027933513, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027936992, "dur":811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027937812, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027937826, "dur":3699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027941562, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027942422, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027942437, "dur":3866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027946333, "dur":2502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027948841, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027948852, "dur":4863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027953745, "dur":922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027954674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027954685, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027958581, "dur":32748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027991338, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027991350, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027994903, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027995510, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027995524, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027998677, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719027999394, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719027999410, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028002968, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028003834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028003845, "dur":5045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028008958, "dur":811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028009779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028009795, "dur":3159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028012992, "dur":34409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028047409, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028047472, "dur":2446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028049934, "dur":96990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028146932, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028146943, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028150635, "dur":50881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028201525, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028201546, "dur":3468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028205038, "dur":51400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028256447, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028256459, "dur":4455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028260942, "dur":481978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028742932, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028742947, "dur":4161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028747145, "dur":556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028747708, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028747721, "dur":3675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028751435, "dur":88574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028840021, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028840036, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028842730, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028843059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028843067, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028844787, "dur":30866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028875660, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028875671, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028878898, "dur":40377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028919286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028919300, "dur":5696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028925026, "dur":15097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028940128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028940136, "dur":24761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028964914, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028965508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719028965515, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719028967855, "dur":61346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029029206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719029029214, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029031293, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029031624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719029031633, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029033686, "dur":69211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029102905, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719029102918, "dur":23465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029126416, "dur":30147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029156572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719029156587, "dur":3765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029160396, "dur":886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029161291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719029161304, "dur":4264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029165598, "dur":79085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029244695, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719029244712, "dur":5321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029250060, "dur":572323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029822393, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669719029822406, "dur":4244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669719029826696, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1669719029826705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719027249037, "dur":104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719027249143, "dur":5335, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719027254493, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1669719027254504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719027256850, "dur":3711, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1669719027260571, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1669719027260639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719027260929, "dur":11174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1669719027272107, "dur":2138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1669719027274251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719027274260, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1669719027275502, "dur":37512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669719027313021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719027313036, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669719027314961, "dur":1672614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719028987580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719028987586, "dur":24445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029012133, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029012479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029012486, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029014377, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029014862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029014868, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029016680, "dur":63732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029080421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029080432, "dur":3401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029083867, "dur":51053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029135891, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029135911, "dur":4441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029140402, "dur":25494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029165905, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029165920, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029168843, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029169369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029169379, "dur":3253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029172655, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029173089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029173099, "dur":5389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029178511, "dur":1118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029179634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029179643, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029183331, "dur":958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029184293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029184301, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029186736, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029187218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029187228, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029189334, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029189866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029189874, "dur":2690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029192579, "dur":818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029193402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029193410, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029196389, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029196661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029196668, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029198578, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029198885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029198891, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029201345, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029201677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029201685, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029204718, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029205113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029205122, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029207525, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029207888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029207898, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029211136, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029211398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029211405, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029214784, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029215002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029215008, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029216300, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029216548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029216553, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029218125, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029218328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029218334, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029219476, "dur":34733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029254218, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029254232, "dur":3524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029257779, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029258333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029258345, "dur":3345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029261715, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029262137, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029262149, "dur":2630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029264802, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029265230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029265239, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029268374, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029268966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029268975, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029271156, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029271534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029271543, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029273600, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029274399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029274409, "dur":10616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029285052, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029285410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029285419, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029286992, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029287291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029287297, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029288780, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029289181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029289189, "dur":2941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029292144, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029292731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029292739, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029294837, "dur":3006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029297846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029297850, "dur":8016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029305877, "dur":1614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029307496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029307504, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029310597, "dur":899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029311499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029311503, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029313401, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029313798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029313803, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029315232, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029315629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029315634, "dur":46338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029362004, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029362585, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029362601, "dur":3653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029366283, "dur":16772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029383065, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029384397, "dur":4644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669719029389069, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669719029389098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029389108, "dur":7128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669719029396260, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669719029396277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029396283, "dur":316175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669719029712501, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669719029712525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029712533, "dur":5984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669719029718545, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669719029718570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029718578, "dur":4806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669719029723417, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669719029723448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029723461, "dur":4606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669719029728110, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1669719029728249, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029728264, "dur":24328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1669719029752621, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1669719029752647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029752658, "dur":21662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1669719029774352, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669719029774384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029774395, "dur":3926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669719029778349, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1669719029778851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669719029778860, "dur":3581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1669719029782468, "dur":44262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719027249110, "dur":55, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719027249165, "dur":5319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719027254493, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669719027254794, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719027259190, "dur":5992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669719027265237, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669719027265366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719027265372, "dur":23408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669719027288867, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669719027289061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719027289546, "dur":22600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669719027312221, "dur":1606234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719028918467, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719028919279, "dur":6450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719028925854, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719028926487, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719028926499, "dur":3002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719028929521, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719028930163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719028930197, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719028933532, "dur":40692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719028974232, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719028974244, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719028977513, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719028978140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719028978151, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719028980238, "dur":37561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029017803, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029017808, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029019351, "dur":71742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029091105, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029091121, "dur":3802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029094952, "dur":18449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029113409, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029113420, "dur":10183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029123631, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029124616, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029124632, "dur":3696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029128352, "dur":19003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029147364, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029147400, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029151576, "dur":781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029152367, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029152381, "dur":3696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029156104, "dur":19571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029175684, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029175696, "dur":24728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029200444, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029200764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029200774, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029203084, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029203396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029203406, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029206073, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029206394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029206403, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029208764, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029209077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029209085, "dur":4549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029213649, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029213886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029213892, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029215305, "dur":1189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029216498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029216506, "dur":1992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029218510, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029219114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029219153, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029220908, "dur":77267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029298178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029298182, "dur":7006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029305208, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029305561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029305575, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029307887, "dur":537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029308429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029308438, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029311027, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029311324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029311331, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029312866, "dur":4527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029317396, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029317403, "dur":54219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669719029371651, "dur":739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1669719029372400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029372980, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1669719029377075, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1669719029377110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029377143, "dur":4379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1669719029381568, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669719029381616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029381628, "dur":3158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669719029384813, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669719029384842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029384852, "dur":11377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669719029396256, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1669719029396280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029396287, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1669719029399363, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669719029399385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029399393, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669719029401940, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669719029401963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029401971, "dur":310550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1669719029712553, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1669719029713137, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029713149, "dur":3685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1669719029716868, "dur":19581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1669719029736461, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029736476, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1669719029740037, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1669719029740059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029740066, "dur":23120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1669719029763208, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1669719029763229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029763236, "dur":14175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1669719029777481, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1669719029777513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669719029777524, "dur":3735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1669719029781288, "dur":45483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719027249192, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719027249193, "dur":5289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719027254493, "dur":3670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669719027258168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719027259047, "dur":5914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669719027265026, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669719027265179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719027265207, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669719027268237, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669719027268414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719027268794, "dur":3275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669719027272137, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669719027272279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719027272293, "dur":4693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669719027277037, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669719027277166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719027277171, "dur":14682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669719027291919, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669719027292093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719027292112, "dur":6263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669719027298450, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669719027298619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719027298626, "dur":16234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1669719027314937, "dur":1627781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719028942725, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719028942778, "dur":22093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719028964976, "dur":75618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029040604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029040617, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029043442, "dur":59639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029103087, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029103097, "dur":25209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029128336, "dur":3439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029131785, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029131800, "dur":6162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029137997, "dur":10801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029148808, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029148829, "dur":4737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029153595, "dur":15384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029168986, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029169050, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029172254, "dur":47592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029219850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029219855, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029221224, "dur":34347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029255581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029255592, "dur":3813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029259429, "dur":711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029260148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029260160, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029263177, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029263544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029263598, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029265706, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029266119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029266127, "dur":2340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029268485, "dur":5045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029273547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029273556, "dur":5839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029279417, "dur":775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029280198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029280208, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029282600, "dur":1609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029284215, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029284225, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029286584, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029286914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029286921, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029288540, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029288757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029288763, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029292336, "dur":798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029293137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029293143, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029295010, "dur":2528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029297579, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029297587, "dur":9213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029306813, "dur":472356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Snowboarder Final_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029779177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669719029779190, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Snowboarder Final_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669719029782654, "dur":44079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669719029971072, "dur":5787, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1669719030050630, "dur": 1996, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669719030048708, "dur": 4000, "ph": "X", "name": "Write chrome-trace events", "args": {} },
